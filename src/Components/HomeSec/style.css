@@ -1,0 +1,180 @@
+#sec1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#sec1 > .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 12%;
+}
+
+#sec1 > .title > h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 160%;
+  color: #000000;
+}
+
+#sec1 > .title > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.container-ar {
+  width: 110%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+}
+
+.artikl {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.artikl > figure {
+  width: 100%;
+}
+
+.artikl > figure > img {
+  width: 100%;
+}
+
+.artikl > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.artikl > div > h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 145%;
+  color: #000000;
+}
+
+.artikl > div > p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 160%;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.artikl > div > button {
+  padding: 15px 40px;
+  background: #e68311;
+  border: 2px solid #e68311;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.artikl > div > button:hover {
+  background: #fff;
+  color: #e68311;
+}
+.artikl > div > button:active {
+  background: #e68311;
+  color: #ffffff;
+}
+
+.partial-product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 12%;
+  gap: 50px;
+}
+
+.partial-product > .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partial-product > .show {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.partial-product > .title >button{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #e58211;
+  border: none;
+  background: none;
+}
+
+.show > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ff880052;
+  padding: 40px;
+}
+
+.show > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.show > div > figure {
+  width: 90%;
+}
+
+.show > div > figure > img {
+  width: 100%;
+}
+
+.show > div > div > h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.show > div > div > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.show > div > div > button {
+  padding: 10px 30px;
+  border: 2px solid #e68311;
+  background: transparent;
+  color: #e68311;
+  transition: all 0.3s ease;
+}
+.show > div > div > button:hover {
+  background: #e68311;
+  color: #fff;
+}
+.show > div > div > button:active {
+  background: transparent;
+  color: #e68311;
+}

@@ -1,0 +1,123 @@
+.ShowProduct {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;
+  z-index: 11;
+}
+
+.ShowProduct > div {
+  width: 330px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.ShowProduct > div > figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ShowProduct > div > figure > img {
+  width: 100%;
+}
+
+.ShowProduct > div > h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 160%;
+  color: #ffa638;
+  text-align: center;
+}
+
+.ShowProduct > div > p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 160%;
+  color: #ffa638;
+  text-align: center;
+}
+
+.numbersCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.numbersCard > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pageLink {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f8a239;
+  background: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .3s ease;
+}
+
+.pageLink:hover{
+  background: #ffa638;
+}
+.pageLink:active{
+  background: none;
+}
+
+.btnActive{
+  background: #ffa638;
+}
+
+.right {
+  width: 25px;
+  height: 25px;
+  border: 5px solid #fff;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(315deg);
+}
+.left {
+  width: 25px;
+  height: 25px;
+  border: 5px solid #fff;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(135deg);
+}
+
+#search{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #ffa5386a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#search>label>input{
+  padding-left: 15px;
+  outline: none;
+}

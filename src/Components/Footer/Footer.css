@@ -1,0 +1,16 @@
+#footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  align-items: center;
+  justify-content: space-between;
+  padding: 4% 10%;
+  background: linear-gradient(76.02deg, #ff9d2d 1.66%, #ffd877 93.21%);
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;    
+}

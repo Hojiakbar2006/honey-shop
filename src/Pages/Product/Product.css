@@ -1,0 +1,19 @@
+#Product {
+  width: 100%;
+  height: auto;
+}
+
+#Product > div {
+  width: 100%;
+  display: flex;
+  min-height: 85vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10%;
+  background: url(../../Assets/images/background-img.png);
+  /* filter: brightness(50%); */
+  background-size: cover;
+  background-position: center;
+  gap: 100px;
+}

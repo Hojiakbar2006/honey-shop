@@ -1,0 +1,59 @@
+#NavBar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 70px;
+  background: #fff;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.navItem > label {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  background: #fff;
+  border-radius: 6px;
+  gap: 5px;
+  align-items: center;
+  border: 2px solid rgb(40, 39, 39);
+}
+
+.navItem > label > input {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  border-right: 2px solid #000;
+  color: #000;
+}
+
+.navItem > label > ::-webkit-input-placeholder {
+  color: #000;
+}
+.navItem > a {
+  font-weight: 500;
+  font-size: 20px;
+  color: #23232380;
+}
+
+.navItem >.active {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
