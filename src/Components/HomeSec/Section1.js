@@ -128,7 +128,7 @@ export function Section1() {
         <div className="show">
           {product.map((item, index) => {
             return (
-              <div>
+              <div key={index}>
                 <div>
                   <h2>{item.name}</h2>
                   <p>{item.about}</p>

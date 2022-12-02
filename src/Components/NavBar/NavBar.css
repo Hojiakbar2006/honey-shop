@@ -26,6 +26,7 @@
   gap: 5px;
   align-items: center;
   border: 2px solid rgb(40, 39, 39);
+  position: relative;
 }
 
 .navItem > label > input {
@@ -52,8 +53,26 @@
   color: #23232380;
 }
 
-.navItem >.active {
+.navItem > .active {
   font-weight: 700;
   font-size: 20px;
   color: #000000;
+}
+
+.viewId {
+  width: 200px;
+  max-height: 200px;
+  position: absolute;
+  background: #fff;
+  overflow-y: auto;
+  top: 40px;
+  left: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.viewId > div {
+  border-bottom: 1px solid #000;
 }

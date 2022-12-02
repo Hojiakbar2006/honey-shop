@@ -8,6 +8,7 @@ import { Home } from "./Pages/Home/Home";
 import { Product } from "./Pages/Product/Product";
 import { ProductView } from "./Pages/View/ProductView";
 import { Loading } from './Components/Loading/Loading';
+import { Alert } from "./UI/Alert";
 
 const route = [
   {
@@ -39,7 +40,7 @@ const route = [
     name: null,
     routeName: "/view/:id",
     route: ProductView,
-  },
+  },  
 ];
 
 export function App() {
@@ -54,6 +55,7 @@ export function App() {
       <Footer/>
       <Config/>
       <Loading/>
+      <Alert/>
     </>
   );
 }

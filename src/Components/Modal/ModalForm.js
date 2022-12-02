@@ -41,14 +41,14 @@ export function ModalForm({ open, setOpen, product, img }) {
         }}
       >
         <h1>
-          <span>Tog’ asali 950g </span>
-          <span>120 000 so'm</span>
+          <span>{product.name}</span>
+          <span>{product.price} 000 so'm</span>
         </h1>
 
-        <input name="name" type="text" placeholder="Isim Familyangiz" />
-        <input name="phone" type="text" placeholder="Telefon Rqamingiz" />
-        <input name="address" type="text" placeholder="Sizning manzilingiz" />
-        <input className="submit" type="submit" value="Buyurtma Berish" />
+        <input autoComplete="off" name="name" type="text" placeholder="Isim Familyangiz" />
+        <input autoComplete="off" name="phone" type="text" placeholder="Telefon Rqamingiz" />
+        <input autoComplete="off" name="address" type="text" placeholder="Sizning manzilingiz" />
+        <input autoComplete="off" className="submit" type="submit" value="Buyurtma Berish" />
 
         <button
           type="button"
