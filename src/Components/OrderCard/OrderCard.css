@@ -1,0 +1,59 @@
+.orderCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.orderCard > h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.orderMenu {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orderMenu > div {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.orderMenu > div > figure {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderMenu > div > figure > img {
+  width: 100%;
+}
+
+.orderMenu > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cancel {
+  width: 180px;
+  height: 30px;
+  background: #ff0000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}

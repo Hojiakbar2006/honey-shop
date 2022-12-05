@@ -24,6 +24,14 @@ export function Alert() {
     }
   }, [clas, alert]);
 
+  if (alert) {
+    setTimeout(() => {
+      dispatch(acAlert({ open: false, message: "", type: "" }));
+    }, 6000);
+  } else {
+    return null;
+  }
+
   return (
     <div className={alert.open ? `alert openAlert ${clas}` : "alert"}>
       {alert.message}

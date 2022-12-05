@@ -9,6 +9,7 @@ import { Product } from "./Pages/Product/Product";
 import { ProductView } from "./Pages/View/ProductView";
 import { Loading } from './Components/Loading/Loading';
 import { Alert } from "./UI/Alert";
+import { Order } from "./Pages/Order/Order";
 
 const route = [
   {
@@ -33,7 +34,7 @@ const route = [
     id: 4,
     name: "My order",
     routeName: "/order",
-    route: Home,
+    route: Order,
   },
   {
     id: 5,

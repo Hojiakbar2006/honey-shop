@@ -1,0 +1,7 @@
+#Order {
+  width: 100%;
+  min-height: calc(100vh - 360px);
+  background-image: url("../../Assets/images/background-img.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
